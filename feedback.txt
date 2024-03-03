@@ -1,0 +1,10 @@
+Hard coded number(s) found in hw2q1.c:
+ int matrix[4][4] = { {0} }, cnt = 0;
+ option_1 = mat[row][column] > mat[row][column + 1] || column == 3;
+ option_4 = mat[row][column] > mat[row+1][column] || row == 3;
+ bool indicator_1 = mat[row][column] > mat[row][column + 1] || column == 3;
+ bool indicator_2 = mat[row][column] < mat[row][column + 1] || column == 3;
+
+Reduced 10 points for hard coded number(s) usage
+
+Final static analysis grade: 90
